@@ -27,7 +27,7 @@ struct LoginPage: View {
             
             VStack{
                 Spacer()
-                TextField("Username", text: $userName)
+                TextField("Usernamq", text: $userName)
                     .padding()
                 .background(Color("AccentColor"))
                 .cornerRadius(12)
